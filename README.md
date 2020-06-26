@@ -1,4 +1,20 @@
-## DB
+## Prisma admin
+
+It's demo project for prisma admin components
+
+You don't need to clone this repo just install our CLI and start your own one:
+
+```shell
+yarn global add @paljs/cli
+//or
+npm install -g @paljs/cli
+```
+
+then crete your project with this command:
+
+```shell
+> pal c
+```
 
 We added `sqlite` as db provider in `schema.prisma` you can change it to your custom db provider
 
