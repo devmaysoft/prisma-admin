@@ -226,6 +226,7 @@ type Field {
   type: String!
   unique: Boolean!
   update: Boolean!
+  upload: Boolean!
 }
 
 type Group {
@@ -633,6 +634,7 @@ input UpdateFieldInput {
   type: String
   unique: Boolean
   update: Boolean
+  upload: Boolean
 }
 
 input UpdateModelInput {

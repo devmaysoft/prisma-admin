@@ -446,6 +446,7 @@ export interface NexusGenInputs {
     type?: string | null; // String
     unique?: boolean | null; // Boolean
     update?: boolean | null; // Boolean
+    upload?: boolean | null; // Boolean
   }
   UpdateModelInput: { // input type
     create?: boolean | null; // Boolean
@@ -685,6 +686,7 @@ export interface NexusGenRootTypes {
     type: string; // String!
     unique: boolean; // Boolean!
     update: boolean; // Boolean!
+    upload: boolean; // Boolean!
   }
   Group: { // root type
     createdAt: any; // DateTime!
@@ -861,6 +863,7 @@ export interface NexusGenFieldTypes {
     type: string; // String!
     unique: boolean; // Boolean!
     update: boolean; // Boolean!
+    upload: boolean; // Boolean!
   }
   Group: { // field return type
     createdAt: any; // DateTime!

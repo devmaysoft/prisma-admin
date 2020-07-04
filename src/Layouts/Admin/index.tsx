@@ -14,7 +14,7 @@ import {
   SidebarRefObject,
   Spinner,
 } from '@paljs/ui';
-import icons from '@paljs/eva-icon';
+import icons from '@paljs/icons';
 
 import Header from './Header';
 import SimpleLayout from './SimpleLayout';

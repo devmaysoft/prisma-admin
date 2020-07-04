@@ -4,7 +4,10 @@ import { PrismaTable } from '@paljs/admin';
 
 const Table: React.FC<{ model: string }> = ({ model }) => {
   const router = useRouter();
-  return <PrismaTable model={model} push={router.push} query={router.query} />;
+  const onSelect = (values: any[]) => {
+    console.log(values);
+  };
+  return <PrismaTable model={model} push={router.push} query={router.query} onSelect={onSelect} />;
 };
 
 export default Table;
