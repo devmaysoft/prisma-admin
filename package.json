@@ -12,7 +12,8 @@
     "generate:nexus": "ts-node --transpile-only -P nexus.tsconfig.json src/Api/nexusSchema",
     "codegen": "graphql-codegen --config codegen.yml",
     "create-migration": "prisma migrate save --experimental",
-    "migrate-database": "prisma migrate up --experimental --auto-approve --create-db"
+    "migrate-database": "prisma migrate up --experimental --auto-approve --create-db",
+    "setup": "npm install -g @paljs/cli && pal c"
   },
   "dependencies": {
     "@apollo/client": "3.0.0-rc.9",

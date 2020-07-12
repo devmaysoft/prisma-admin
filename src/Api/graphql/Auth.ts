@@ -113,7 +113,7 @@ export const AuthMutations = extendType({
       },
       resolve: async (_, { currentPassword, password }, ctx) => {
         if (currentPassword && password) {
-          // get current user and verify currentPassword before changing;
+          // get current user and verify currentPassword before changing
           const user = await ctx.prisma.user.findOne({
             where: { id: ctx.userId },
             select: { password: true },

@@ -24,9 +24,7 @@ export default function Register() {
     setState({ ...state, [name]: value });
   };
 
-  let disabled = false;
-
-  (Object.keys(state) as (keyof typeof state)[]).forEach((key) => {
+  let disabled = false(Object.keys(state) as (keyof typeof state)[]).forEach((key) => {
     if (!disabled) {
       disabled = !state[key];
     }
