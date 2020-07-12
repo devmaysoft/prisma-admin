@@ -70,7 +70,7 @@ export default function Login() {
       </form>
       <Socials />
       <p>
-        Don&apos;t have account?{' '}
+        Don&apost have account?{' '}
         <Link href="/admin/auth/register">
           <a>Register</a>
         </Link>
